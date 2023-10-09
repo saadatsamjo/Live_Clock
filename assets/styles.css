@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container_de_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.box{
+    color: white;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background: rgba(100, 51, 49, 0.9);
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 0.5px white solid;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+}
+
+span{
+    font-size: 40px;
+}
+
+.colon{
+    color: rgba(100, 51, 49, 0.9);
+}
+
+.box span #hrs::after{
+    content: "hour";
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.box span #min::after{
+    content: "min";
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#date{
+    text-align: center;
+    color: rgba(100, 51, 49, 0.9);
+}
